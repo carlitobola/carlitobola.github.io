@@ -1,0 +1,7 @@
+---
+layout: main
+title: All recipes
+---
+{% for post in site.posts %}
+    <a href="{{ post.url }}" style="display: block;">{{ post.title }}</a>
+{% endfor %}

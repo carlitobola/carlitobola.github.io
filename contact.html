@@ -1,0 +1,23 @@
+---
+layout: main
+title: Contact us
+---
+<form method="POST" action="https://formspree.io/carlito.bola@protonmail.com">
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" class="form-control input-lg">
+    </div>
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" class="form-control input-lg">
+    </div>
+    <div class="form-group">
+        <label>Message</label>
+        <textarea name="message" rows="10" class="form-control input-lg"></textarea>
+    </div>
+
+    <input type="hidden" name="_subject" value="Contact us" />
+    <input type="hidden" name="_next" value="/" />
+
+    <button type="submit" class="btn btn-lg btn-primary">Send</button>
+</form>

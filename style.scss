@@ -1,0 +1,40 @@
+---
+---
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700');
+
+body {
+    background:#eee;
+}
+header {
+    #logo {
+        font-family: 'Josefin Sans', sans-serif;
+        color:red;
+        font-size: 48pt;
+        padding:20px;
+        display:block;
+        text-align: center;
+    }
+    nav {
+        width:100%;
+        text-align: center;
+        list-style-type: none;
+        background:#ddd;
+        li {
+            display:inline-block;
+            a {
+                padding:20px;
+                display:inline-block;
+                &:hover {
+                    background: #fff;
+                }
+            }
+            
+        }
+    }
+}
+main {
+    max-width: 1200px;
+    margin:0 auto;
+    background: #fff;
+    padding:20px;
+}

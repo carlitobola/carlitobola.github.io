@@ -1,0 +1,14 @@
+---
+layout: main
+---
+<div class="row">
+    <div class="col-md-9">
+        {{ content }}
+    </div>
+    <div class="col-md-3">
+        <h2>All recipes</h2>
+        {% for post in site.posts %}
+            <a href="{{ post.url }}" style="display: block;">{{ post.title }}</a>
+        {% endfor %}
+    </div>
+</div>
